@@ -1,0 +1,48 @@
+<div id="pos1d"></div><p id="pos1p"></p>
+<div id="pos2d"></div><p id="pos2p"></p>
+<div id="pos3d"></div><p id="pos3p"></p>
+
+<style>
+  body{
+    background: #62306D;
+    margin: 0;
+  }
+  div{
+    background: radial-gradient(ellipse 50px 50px, #F7EC7D 50px, #62306D 1px);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  p{
+    height: 50px;
+    width: 100px;
+    background: green;
+    position: absolute;
+    background: #F7EC7D;
+  }
+  #pos1d {
+    margin-left: 50px;
+   	margin-top: 150px;
+  }
+  #pos1p {
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+  #pos2d {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  #pos2p {
+    margin-left: 150px;
+    margin-top: 100px
+  }
+  #pos3d {
+    margin-left: 250px;
+    margin-top: 150px;
+  }
+  #pos3p {
+    margin-left: 250px;
+     margin-top: 150px;
+  }
+</style>
+
