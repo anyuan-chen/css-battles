@@ -1,0 +1,54 @@
+<div id="s"></div>
+<div id="m"></div>
+  <div id="bm"></div>
+  <div id="bs"></div>
+
+<style>
+  body{
+    background: #191919;
+    display: flex;
+    justify-content: center;
+  }
+  #s{
+    margin-top: 42px;
+    background: #F9E492;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  #m {
+    border-right: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid #4F77FF;
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    z-index: -1;
+  }
+  #bm {
+    height: 0;
+    width: 0;
+    padding-top: 80px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid transparent;
+    border-left: 70px solid transparent;
+    border-bottom: 70px solid #191919;
+    position: absolute;
+    z-index: 3;
+  }
+  #bs {
+   
+    height: 22px;
+    width: 150px;
+    margin-top: 220px;
+    clip-path: ellipse(67px 22px at 50% 0 );
+    background: #191919;
+    position: absolute;
+    z-index: 100;
+  }
+</style>
+
