@@ -1,0 +1,24 @@
+<div><p></p></div>
+<style>
+  body{
+    background: #6592CF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(circle 500px, #6592CF 125px, #243D83 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle 30px, #EEB850 25px, #243D83 1px);
+  }
+</style>
+
