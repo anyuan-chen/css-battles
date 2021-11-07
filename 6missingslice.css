@@ -1,0 +1,34 @@
+<div>
+  <span></span><span></span><span><span/></div>
+<style>
+  body{
+    background: #E3516E;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+   	display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  span {
+    height: 100px;
+    width: 100px;
+  }
+  span:nth-child(1){
+    background: #51B5A9;
+  }
+  span:nth-child(2){
+    background: #FADE8B;
+  }
+  span:nth-child(3){
+    background: #F7F3D7;
+  }
+</style>
+
+
