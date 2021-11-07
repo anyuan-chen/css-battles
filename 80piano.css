@@ -1,0 +1,44 @@
+<div><p><p><p><p><p><p><p>
+
+<style>
+  body{
+    background-color: #998235;
+  }
+  div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 170px;
+    height: 90px;
+    padding: 5px;
+    background: #191919;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  p{
+    position: relative;
+    background: #FFFFFF;
+    margin: 0;
+    height: 70px;
+    width: calc((100% - 30px) / 7);
+    border-radius: 5px;
+  }
+  p:after {
+    content: '';
+    background: #191919;
+    width: 15px;
+    height: 35px;
+    position: absolute;
+    right: -10px;
+    z-index: 1;
+  }
+  p:nth-child(3):after,
+  p:nth-child(7):after{
+    display: none;
+  }
+  
+</style>
