@@ -1,0 +1,48 @@
+<p id="tl">
+<p id="tr"> 
+<p id="bl">
+<p id="br">
+
+<style>
+  body{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+   	background: #62374e;
+    text-align: center;
+    margin: 0;
+  }
+  div{
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    background: #fdc57b;
+    content: ''; 
+  }
+  #tl {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  #tr {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  #br {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+  }
+  #bl {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  
+</style>
+
