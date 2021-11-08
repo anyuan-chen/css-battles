@@ -1,0 +1,17 @@
+<div>
+<style>
+  body {
+    background-image: linear-gradient(#222730, #222730 75px,  #4CAAB3 75px, #4CAAB3 225px, #222730 225px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    border: 50px solid #222730;
+    background: radial-gradient(circle 25px, #393E46  30px, #4CAAB3 0);
+  }
+</style>
