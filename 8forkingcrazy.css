@@ -1,0 +1,56 @@
+<div id="body">
+  <div class="f"></div>
+ <p></p>
+  <div class="f"></div>
+  <p></p>
+  <div class="f"></div>
+  <p></p> 
+  <div class="f"></div>
+</div>
+<div id="semi"></div>
+<div id="stem">
+</div>
+<style>
+  body {
+    background: #6592CF;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+  }
+  #stem{
+    background: #060F55;
+    height: 55px;
+    width: 20px;
+  }
+  #body {
+    height: 100px;
+    width: 140px;
+    margin-top: 50px;
+    background: #6592CF;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  #semi{
+    margin: 0;
+    height: 100px;
+    background: #060F55;
+    width: 140px;
+    border-radius: 0 0 75px 75px;
+    z-index: -1;
+  }
+  p {
+    height: 110px;
+    width: 20px;
+    background: #6592CF;
+    margin: 0;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .f {
+    height: 110px;
+    width: 20px;
+    background: #060F55;
+    border-radius: 10px 10px 10px 10px;
+  }
+</style>
