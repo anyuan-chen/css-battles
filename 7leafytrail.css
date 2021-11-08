@@ -1,0 +1,35 @@
+<div></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 68% 0 68% 0;
+  }
+  div::after {
+    position: absolute;
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+    background: #F3AC3C;
+    border-radius: 68% 0 67% 0;
+    content: '';
+    transform: translate(50px, 0)
+  }
+  div::before {
+	z-index: -1;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 68% 0 69% 0;
+    background: #1A4341;
+    content: '';
+    transform: translate(-50px, 0);
+  }
+</style>
